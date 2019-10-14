@@ -18,14 +18,20 @@ def monopoly_with_second_tier
 	  :newyork => 2
 	  {[:athens][:eleftheriosvenizelos]
 	  [:newyork][:jfk, :laguardia]
-	  }  
+	  }
+  }
 end
 
 def monopoly_with_third_tier
-    
+    monopoly = {:airports
+	  :athens => 1,
+	  :newyork => 2
+	  {[:athens][:eleftheriosvenizelos]
+	  [:newyork][:jfk, :laguardia]
+	  [:athens][:eleftheriosvenizelos][:olympicairlines]
+	  [:athens][:jfk, :laguardia][:deltaairlines]
 end
 
 def monopoly_with_fourth_tier
-	#copy and past the monopoly hash you build in the previous method. We're going to add stuff to it here!
 
 end
