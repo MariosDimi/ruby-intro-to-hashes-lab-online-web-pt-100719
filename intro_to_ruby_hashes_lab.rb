@@ -30,8 +30,11 @@ def monopoly_with_third_tier
 	  [:newyork][:jfk, :laguardia]
 	  [:athens][:eleftheriosvenizelos][:olympicairlines]
 	  [:athens][:jfk, :laguardia][:deltaairlines]
+	  }
+  }  
 end
 
 def monopoly_with_fourth_tier
+  
 
 end
